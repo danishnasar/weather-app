@@ -275,6 +275,7 @@ body {
   .MuiAutocomplete-hasPopupIcon.css-6ffsbr-MuiAutocomplete-root .MuiOutlinedInput-root {
     height: 9vw !important;
     margin-left: 2vw !important;
+    width: 50vw !important;
   }
 
   .header {
