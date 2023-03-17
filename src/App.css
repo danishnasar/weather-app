@@ -1,0 +1,404 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.searchScreen {
+  width: 25vw;
+  height: 35vw;
+  position: relative;
+  top: 10vw;
+  left: 38vw;
+  background-color: #fff;
+}
+
+body {
+  background-color: rgb(177, 202, 214) !important;
+}
+
+.cardBox {
+  position: relative;
+  top: 20vw;
+  left: 6vw;
+}
+
+.weatherBox {
+  position: relative;
+  top: 5vw;
+  left: 6vw;
+}
+
+.headingClass {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2vw;
+  position: relative;
+  top: 2vw;
+  font-weight: bold;
+}
+
+.headingBox {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1vw;
+  margin-top: -2.5vw;
+  font-weight: bold;
+}
+
+.weatherImage {
+  position: relative;
+  top: -0.5vw;
+  width: 13vw;
+  margin-top: -20vw;
+}
+
+.searchBox {
+  height: 2vw;
+  width: 13vw;
+}
+
+.errorText {
+  position: relative;
+  top: 5vw;
+  left: -0.8vw;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 10vw;
+}
+
+.backButton {
+  margin-left: 5vw;
+}
+
+.weatherLogo {
+  margin-left: 5.5vw;
+  width: 4.5vw;
+}
+
+.temperature {
+  margin-left: -3vw;
+  font-size: 1.3vw;
+}
+
+.country {
+  margin-top: 1vw;
+  margin-left: 3vw;
+}
+
+.countrynext {
+  margin-top: 1vw;
+  margin-left: 0.7vw;
+}
+
+.weatherHeading {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1vw;
+  font-weight: bold;
+  margin-left: -3vw;
+  margin-top: 1.5vw;
+}
+
+.weatherTiles {
+  position: relative;
+  left: -8vw;
+  margin-left: 3vw;
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 10vw;
+}
+
+.weatherTiles div {
+  height: 4vw;
+  font-size: 0.8vw;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.boldClass {
+  font-weight: bold;
+}
+
+.MuiAutocomplete-hasPopupIcon.css-6ffsbr-MuiAutocomplete-root .MuiOutlinedInput-root {
+  height: 2vw !important;
+  margin-left: -1.5vw !important;
+}
+
+.searchButton {
+  margin-left: 4vw;
+  margin-top: 1vw;
+}
+
+.header {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: -1vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .searchScreen {
+    width: 80vw;
+    height: 110vw;
+    position: relative;
+    top: 10vw;
+    left: 10vw;
+    background-color: #fff;
+  }
+
+  .searchBox {
+    margin: 7vw 2.2vw 0vw 5.5vw;
+    height: 7vw;
+    width: 40vw;
+  }
+
+  .weatherImage {
+    position: relative;
+    top: 2.5vw;
+    left: 18vw;
+    width: 30vw;
+    margin-top: -20vw;
+  }
+
+  .headingClass {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 5vw;
+    position: relative;
+    top: 2vw;
+    font-weight: bold;
+  }
+  
+  .headingBox {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3.5vw;
+    margin-top: 7vw;
+    margin-left: 12vw;
+    font-weight: bold;
+  }
+
+  .errorText {
+    position: relative;
+    top: 5vw;
+    left: 6.8vw;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 20vw;
+  }
+  
+  .backButton {
+    margin-left: 25vw;
+  }
+
+  .weatherLogo {
+    margin-left: 12.5vw;
+    width: 12vw;
+    margin-top: 5vw;
+  }
+  
+  .temperature {
+    margin-left: 3vw;
+    font-size: 6.3vw;
+  }
+  
+  .country {
+    margin-top: 3vw;
+    margin-left: 19.5vw;
+    margin-top: 10vw;
+    font-size: 4.2vw;
+  }
+
+  .countrynext {
+    margin-top: 3vw;
+    margin-left: 6.5vw;
+    margin-top: 10vw;
+    font-size: 4.2vw;
+  }
+
+  .weatherHeading {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3.5vw;
+    font-weight: bold;
+    margin-left: 23vw;
+    margin-top: 6vw;
+  }
+  
+  .weatherTiles {
+    position: relative;
+    left: -8vw;
+    margin-left: 3vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 30vw;
+    margin-top: 5vw;
+  }
+  
+  .weatherTiles div {
+    height: 15vw;
+    font-size: 3vw;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+
+  .backButton {
+    margin-top: 2vw;
+  }
+
+  .MuiAutocomplete-hasPopupIcon.css-6ffsbr-MuiAutocomplete-root .MuiOutlinedInput-root {
+    height: 9vw !important;
+    margin-left: 2vw !important;
+  }
+
+  .header {
+    margin-left: 4vw;
+  }
+
+  .searchButton {
+    margin: 10vw 0vw 0vw 23.5vw;
+  }
+
+  .inputClass {
+    margin-left: 5vw;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1540px) {
+  .searchScreen {
+    width: 70vw;
+    height: 80vw;
+    position: relative;
+    top: 10vw;
+    left: 10vw;
+    background-color: #fff;
+  }
+
+  .searchBox {
+    margin: 7vw 1vw 0vw 5.5vw;
+    height: 4vw;
+    width: 40vw;
+  }
+
+  .weatherImage {
+    position: relative;
+    top: 2.5vw;
+    left: 18vw;
+    width: 30vw;
+    margin-top: -20vw;
+  }
+
+  .headingClass {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 4vw;
+    position: relative;
+    top: 2vw;
+    font-weight: bold;
+  }
+  
+  .headingBox {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3.5vw;
+    margin-top: 7vw;
+    margin-left: 12vw;
+    font-weight: bold;
+  }
+
+  .errorText {
+    position: relative;
+    top: 5vw;
+    left: 8.8vw;
+    font-size: 3.5vw;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 20vw;
+  }
+  
+  .backButton {
+    margin-left: 25vw;
+    width: 10vw;
+  }
+
+  .weatherLogo {
+    margin-left: 12.5vw;
+    width: 12vw;
+  }
+  
+  .temperature {
+    margin-left: 3vw;
+    font-size: 6.3vw;
+  }
+  
+  .country {
+    margin-top: 3vw;
+    margin-left: 19.5vw;
+  }
+
+  .weatherHeading {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-left: 2vw;
+    margin-top: 3.5vw;
+  }
+  
+  .weatherTiles {
+    position: relative;
+    left: -8vw;
+    margin-left: 3vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 30vw;
+  }
+  
+  .weatherTiles div {
+    height: 15vw;
+    font-size: 3vw;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+
+  .inputClass {
+    margin-left: 10vw;
+  }
+
+  .searchButton {
+    margin: 6vw 0vw 0vw 25vw;
+  }
+
+  .MuiAutocomplete-hasPopupIcon.css-6ffsbr-MuiAutocomplete-root .MuiOutlinedInput-root {
+    height: 9vw !important;
+    margin-left: 1vw !important;
+    width: 40vw !important;
+  }
+
+  .header {
+    margin-left: 2vw;
+  }
+}
