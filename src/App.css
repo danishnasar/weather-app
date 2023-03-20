@@ -153,6 +153,7 @@ body {
 .MuiAutocomplete-hasPopupIcon.css-6ffsbr-MuiAutocomplete-root .MuiOutlinedInput-root {
   height: 2vw !important;
   margin-left: -1.5vw !important;
+  width: 300px !important;
 }
 
 .searchButton {
@@ -167,11 +168,11 @@ body {
 
 @media only screen and (max-width: 768px) {
   .searchScreen {
-    width: 80vw;
+    width: 98vw;
     height: 110vw;
     position: relative;
     top: 10vw;
-    left: 10vw;
+    left: 1vw;
     background-color: #fff;
   }
 
@@ -275,7 +276,7 @@ body {
   .MuiAutocomplete-hasPopupIcon.css-6ffsbr-MuiAutocomplete-root .MuiOutlinedInput-root {
     height: 9vw !important;
     margin-left: 2vw !important;
-    width: 50vw !important;
+    width: 60vw !important;
   }
 
   .header {
