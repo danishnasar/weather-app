@@ -270,7 +270,8 @@ body {
   }
 
   .backButton {
-    margin-top: 2vw;
+    margin-top: 3vw;
+    margin-left: 35vw;
   }
 
   .MuiAutocomplete-hasPopupIcon.css-6ffsbr-MuiAutocomplete-root .MuiOutlinedInput-root {
